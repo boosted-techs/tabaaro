@@ -9,8 +9,21 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png" />
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Tabaaro foundation" />
+
+    <meta name="description" content="Tabaaro Foundation - Empowering Children through Education and Sponsorships">
+    <meta name="keywords" content="Tabaaro Foundation, nonprofit organization, education, sponsorships, Uganda, children, empowerment">
+    <meta property="og:title" content="Tabaaro Foundation">
+    <meta property="og:description" content="Empowering Children through Education and Sponsorships">
+    <meta property="og:image" content="https://<?=$_SERVER['SERVER_NAME']?>/assets/logo.png">
+    <meta property="og:url" content="https://<?=$_SERVER['SERVER_NAME']?>">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags for Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tabaaro Foundation">
+    <meta name="twitter:description" content="Empowering Children through Education and Sponsorships">
+    <meta name="twitter:image" content="https://<?=$_SERVER['SERVER_NAME']?>/assets/logo.png">
+
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

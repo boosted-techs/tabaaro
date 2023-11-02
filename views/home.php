@@ -37,7 +37,7 @@ include "parts/header.php";
                                     <p class="main-slider__sub-title">Empowering Children's Education</p>
                                     <h2 class="main-slider__title">Join Tabaaro Foundation in Making a Difference</h2>
                                     <div class="main-slider__btn-box">
-                                        <a href="about.html" class="thm-btn main-slider__btn"> Discover more</a>
+                                        <a href="/about-us" class="thm-btn main-slider__btn"> Discover more</a>
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@ include "parts/header.php";
                             </div>
                         </div>
                         <div class="causes-one__content">
-                            <h3 class="causes-one__title"><a href="donation-details.html">Support School Fees</a></h3>
+                            <h3 class="causes-one__title"><a href="/donate-now">Support School Fees</a></h3>
                             <p class="causes-one__text">Help provide school fees to underprivileged children, giving them access to quality education.</p>
                             <div class="causes-one__progress">
                                 <div class="causes-one__progress-shape" style="background-image: url(/assets/images/shapes/causes-one-progress-shape-1.png);"></div>
@@ -183,7 +183,7 @@ include "parts/header.php";
                         </div>
                     </div>
                     <div class="causes-one__content">
-                        <h3 class "causes-one__title"><a href="donation-details.html">Provide Scholastic Materials</a></h3>
+                        <h3 class "causes-one__title"><a href="/donate-now">Provide Scholastic Materials</a></h3>
                         <p class="causes-one__text">Contribute towards supplying scholastic materials to disadvantaged students to enhance their learning experience.</p>
                         <div class="causes-one__progress">
                             <div class="causes-one__progress-shape" style="background-image: url(/assets/images/shapes/causes-one-progress-shape-1.png);"></div>
@@ -212,7 +212,7 @@ include "parts/header.php";
                         </div>
                     </div>
                     <div class="causes-one__content">
-                        <h3 class="causes-one__title"><a href="donation-details.html">Provide Scholarships</a></h3>
+                        <h3 class="causes-one__title"><a href="/donate-now">Provide Scholarships</a></h3>
                         <p class="causes-one__text">Support students by offering scholarships to help them pursue their educational dreams.</p>
                         <div class="causes-one__progress">
                             <div class="causes-one__progress-shape" style="background-image: url(/assets/images/shapes/causes-one-progress-shape-1.png);"></div>
@@ -248,7 +248,7 @@ include "parts/header.php";
                 <p class="become-volunteer-one__sub-title">Join Our Cause</p>
                 <h3 class="become-volunteer-one__title">Become a Volunteer and Make a Difference</h3>
                 <div class="become-volunteer-one__btn-box">
-                    <a href="/become-volunteer" class="thm-btn become-volunteer-one__btn">Get Involved</a>
+                    <a href="/get-involved" class="thm-btn become-volunteer-one__btn">Get Involved</a>
                 </div>
             </div>
         </div>

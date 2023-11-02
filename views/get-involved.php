@@ -13,7 +13,7 @@ include "parts/header.php";
             <div class="col-xl-6 col-lg-6">
                 <div class="become-volunteer-page__left">
                     <div class="become-volunteer-page__img">
-                        <img src="assets/images/team/become-volunteer-img-1.jpg" alt="">
+                        <img src="/assets/images/team/become-volunteer-img-1.jpg" alt="">
                     </div>
                     <div class="become-volunteer-page__content">
                         <h3 class="become-volunteer-page__title">Requirements</h3>
@@ -52,7 +52,9 @@ include "parts/header.php";
                         </div>
                         <div class="become-volunteer__call-content">
                             <span>Contact Us</span>
-                            <p><a href="tel:+256780788933">+256 780 788 933</a></p>
+                            <p>
+                                <a href="tel:256700632657">+ 256 700 632657</a>
+                            </p>
                         </div>
                     </div>
                 </div>

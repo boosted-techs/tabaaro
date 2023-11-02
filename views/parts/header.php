@@ -108,7 +108,7 @@
                                         <img src="/assets/images/icon/main-menu-heart-icon.png" alt="">
                                     </div>
                                     <div class="main-menu__volunteers-text-box">
-                                        <p class="main-menu__volunteers-text"><a href="become-volunteer.html">Become
+                                        <p class="main-menu__volunteers-text"><a href="/get-involved">Become
                                                 a
                                                 <span>volunteers</span></a></p>
                                     </div>

@@ -132,7 +132,7 @@
                                             </div>
                                             <div class="content">
                                                 <p>Send email</p>
-                                                <h5><a href="mailto:info@<?=$_SERVER['SERVER_NAME']?>">info@<?=$_SERVER['SERVER_NAME']?></a>
+                                                <h5><a href="mailto:info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?>">info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?></a>
                                                 </h5>
                                             </div>
                                         </li>

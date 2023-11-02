@@ -170,7 +170,7 @@
                                         </div>
                                         <div class="text">
                                             <p>
-                                                <a href="mailto:info@<?=$_SERVER['SERVER_NAME']?>">info@<?=$_SERVER['SERVER_NAME']?></a>
+                                                <a href="mailto:info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?>">info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?></a>
                                             </p>
                                         </div>
                                     </li>
@@ -199,7 +199,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright <?=date("Y")?> by <a href="#"><?=strtoupper($_SERVER['SERVER_NAME'])?></a>
+                                <p class="site-footer__bottom-text">© All Copyright <?=date("Y")?> by <a href="#"><?=strtoupper(str_replace("www.", "", $_SERVER['SERVER_NAME']))?>"</a>
                                 </p>
                             </div>
                         </div>
@@ -229,7 +229,7 @@
                 <ul class="mobile-nav__contact list-unstyled">
                     <li>
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:info@<?=$_SERVER['SERVER_NAME']?>">info@<?=$_SERVER['SERVER_NAME']?></a>
+                        <a href="mailto:info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?>">info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?></a>
                     </li>
                     <li>
                         <i class="fa fa-phone-alt"></i>

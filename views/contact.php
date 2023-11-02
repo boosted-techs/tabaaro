@@ -77,7 +77,7 @@ include "parts/header.php";
                             </div>
                             <div class="contact-one__content">
                                 <p class="contact-one__sub-title">SEND EMAIL</p>
-                                <h3 class="contact-one__number"><a href="mailto:info@<?=$_SERVER['SERVER_NAME']?>">info@<?=$_SERVER['SERVER_NAME']?></a></h3>
+                                <h3 class="contact-one__number"><a href="mailto:info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?>">info@<?=str_replace("www.", "", $_SERVER['SERVER_NAME'])?></a></h3>
                             </div>
                         </li>
                         <li class="contact-one__single">
